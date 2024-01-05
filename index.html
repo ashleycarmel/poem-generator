@@ -16,28 +16,23 @@
       </header>
 
       <main>
-      <form id="poem-generator-form">
-        <input
-          type="text"
-          placeholder="Enter a topic for a poem"
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions"
-          id="user-instructions"
-        />
-        <input type="submit" class="submit-button"/>
-      </form>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic for a poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+            </form>
+            <div class="hint">i.e Love, Haiti, Beauty</div>
+        </div>
 
-      <div class="poem" id="poem">
-        Just like moons and like suns,
-        <br />
-        With the certainty of tides,
-        <br />
-        Just like hopes springing high,
-        <br />
-        Still I'll rise
-      </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
